@@ -1,0 +1,68 @@
+body {
+  background-color: grey;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 50px;
+  color: blue;
+  text-transform: uppercase;
+  text-shadow: 1px 1px black;
+}
+
+#svg-container {
+  position: relative;
+}
+
+#graphic {
+  background-color: white;
+  border: 1px solid black;
+}
+
+#tooltip {
+  background-color: lightsteelblue;
+  width: 150px;
+  padding: 10px;
+  -webkit-box-shadow: 2px 2px grey;
+          box-shadow: 2px 2px grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  opacity: 0;
+  left: 10%;
+  position: absolute;
+  top: 50%;
+  font-size: 1.2em;
+  -webkit-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.bar {
+  fill: #147a9c;
+}
+
+.bar:hover {
+  fill: white;
+}
+/*# sourceMappingURL=main.css.map */
